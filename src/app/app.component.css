@@ -1,0 +1,19 @@
+.content-body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 50px 2rem;
+    background: red;
+    height: 102%;
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 1500px;
+}

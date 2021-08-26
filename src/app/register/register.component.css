@@ -1,0 +1,27 @@
+mat-card{
+    max-width: 600px;
+    margin: 8em auto;
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+}
+
+.full-width{
+    width: 80%;
+}
+
+.email-input{
+    padding-top: 10px;
+}
+
+.back{
+    margin: 30px;
+    width: 100px;
+}
+
+.createaccount{    
+    margin: 30px;
+    width: 150px;
+}

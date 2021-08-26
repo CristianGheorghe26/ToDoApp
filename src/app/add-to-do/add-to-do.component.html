@@ -1,0 +1,33 @@
+<mat-card>
+    <mat-card-content>
+        <div>
+            <img class="logo" [src]=logo>
+        </div>
+        <div class="header">
+            <h2>Add New To Do Task</h2>
+        </div>
+        <div class="input-field" style="padding-right: 500px;">
+            <form class="addtodo-form">
+                <!-- <mat-form-field appearance="fill" style="padding-right: 500px;">
+                    <mat-label>Status</mat-label>
+                    <mat-select>
+                        <mat-option *ngFor="let statuses of status" [value]="statuses.viewValue">
+                            {{statuses.viewValue}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field> -->
+
+                <mat-form-field appearance="fill">
+                    <mat-label>Input</mat-label>
+                    <input matInput>
+                  </mat-form-field>
+                <div>
+                    <button mat-raised-button color="primary" (click)="newMessage()">Add New To Do Task</button>
+                </div>
+            </form>
+        </div>
+
+
+
+    </mat-card-content>
+</mat-card>

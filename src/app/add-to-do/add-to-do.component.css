@@ -1,0 +1,35 @@
+mat-card{
+    max-width: 600px;
+    margin: 12em auto;
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+}
+
+.full-width{
+    width: 80%;
+}
+
+.addtodo-form{
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.input-field{
+    justify-content: center;
+}
+
+.todo-input{
+    text-align: left;
+}
+
+.addnewtodo{
+    margin: 10px; 
+}
+
+.example-full-width {
+    width: 100%;
+}

@@ -1,0 +1,20 @@
+<mat-card>
+    <mat-card-content>
+        <div>
+            <img class="logo" [src]=logo>
+        </div>
+        <div class="header">
+            <h2>To Do Dashboard</h2>
+        </div>
+        <div class="addtodo">
+            <button mat-mini-fab color="accent" mat-button color="primary" (click)="addToDo()">
+                <mat-icon>plus_one</mat-icon>
+            </button>
+            <span>Add New To Do Task</span>
+        </div>
+
+        <div>
+            {{message}}
+        </div>
+    </mat-card-content>
+</mat-card>

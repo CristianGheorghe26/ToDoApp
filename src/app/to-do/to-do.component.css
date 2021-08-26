@@ -1,0 +1,22 @@
+mat-card{
+    max-width: 600px;
+    margin: 8em auto;
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+}
+
+.full-width{
+    width: 80%;
+}
+
+.addtodo{
+    margin: 10px;
+    width: 100px;
+}
+
+span {
+    display: inline-block;
+}
